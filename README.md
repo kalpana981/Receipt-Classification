@@ -1,2 +1,3 @@
 # Receipt-Classification
 Receipt Classification using Text Extraction in Python
+This is a Machine learning Model which Classifies a given image wether it is a Receipt or not.It uses Pytesseract or Python-tesseract, an OCR (Optical Character Recognition) tool for python that can read and recognize text in images. After Text Extraction, I used wordninja to seperate the concatenated words in the form of a list. Iterate through the list to check the presence of basic words present in a list like tax, balance, invoice, credit etc. If they are present it can be concluded that it is a receipt else it is not a receipt.
